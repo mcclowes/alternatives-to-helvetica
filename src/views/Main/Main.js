@@ -1,8 +1,6 @@
 import Dumb from "../../components/Dumb";
 import React from "react";
 import Page from "../../components/Page";
-import Smart from "../../components/Smart";
-import { Text } from "../../components/UIKit";
 import fonts from "../../fonts";
 import Font from "../../components/Font";
 
