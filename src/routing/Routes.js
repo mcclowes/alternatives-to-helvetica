@@ -11,7 +11,7 @@ const Routes = (props) => {
 
       <Route exact path="/" component={Main} />
 
-      <Route path="/alt" component={Alt} />
+      <Route path="/about" component={Alt} />
     </Router>
   );
 };

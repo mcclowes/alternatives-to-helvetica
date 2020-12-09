@@ -3,16 +3,23 @@ import React from "react";
 import Page from "../../components/Page";
 import Smart from "../../components/Smart";
 import { Text } from "../../components/UIKit";
+import fonts from "../../fonts";
+import Font from "../../components/Font";
 
 const Main = (props) => {
   return (
     <Page>
-      <Smart>
-        <Text>Hello World!</Text>
-      </Smart>
-
       <Dumb>
-        <Text>This is an example project. Make changes as you see fit.</Text>
+        {fonts
+          .filter((font) => !font.disabled)
+          .sort((a, b) => b.match - a.match)
+          .map((font) => (
+            <Font
+              key={font.fontName}
+              font={font}
+              text="Alternatives to Helvetica"
+            />
+          ))}
       </Dumb>
     </Page>
   );

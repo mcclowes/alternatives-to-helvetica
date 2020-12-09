@@ -7,13 +7,13 @@ const LINKS = [
     text: "Main",
   },
   {
-    to: "/alt",
-    text: "Alt",
+    to: "/about",
+    text: "About",
   },
 ];
 
 const Nav = () => {
-  return <NavUtil logo="mcclowes-react-sample-project" links={LINKS} />;
+  return <NavUtil logo="Alternatives to Helvetica" links={LINKS} />;
 };
 
 export default Nav;

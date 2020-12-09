@@ -2,15 +2,77 @@
 
 exports[`renders component 1`] = `
 <Page>
-  <SmartContainer>
-    <Text>
-      Hello World!
-    </Text>
-  </SmartContainer>
   <Dumb>
-    <Text>
-      This is an example project. Make changes as you see fit.
-    </Text>
+    <Font
+      font={
+        Object {
+          "disabled": false,
+          "downloadUrl": "https://fonts.google.com/specimen/Montserrat",
+          "fontName": "Montserrat",
+          "fontUrl": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",
+          "free": true,
+          "match": 8,
+        }
+      }
+      key="Montserrat"
+      text="Alternatives to Helvetica"
+    />
+    <Font
+      font={
+        Object {
+          "disabled": false,
+          "downloadUrl": "https://fonts.google.com/specimen/Open+Sans",
+          "fontName": "Open Sans",
+          "fontUrl": "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap",
+          "free": true,
+          "match": 6,
+        }
+      }
+      key="Open Sans"
+      text="Alternatives to Helvetica"
+    />
+    <Font
+      font={
+        Object {
+          "disabled": false,
+          "downloadUrl": "https://fonts.google.com/specimen/Noto+Sans",
+          "fontName": "Noto Sans",
+          "fontUrl": "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap",
+          "free": true,
+          "match": 6,
+        }
+      }
+      key="Noto Sans"
+      text="Alternatives to Helvetica"
+    />
+    <Font
+      font={
+        Object {
+          "disabled": false,
+          "downloadUrl": "https://fonts.google.com/specimen/Padauk",
+          "fontName": "Padauk",
+          "fontUrl": "https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap",
+          "free": true,
+          "match": 4,
+        }
+      }
+      key="Padauk"
+      text="Alternatives to Helvetica"
+    />
+    <Font
+      font={
+        Object {
+          "disabled": false,
+          "downloadUrl": "https://fonts.google.com/specimen/Lato",
+          "fontName": "Lato",
+          "fontUrl": "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap",
+          "free": true,
+          "match": 2,
+        }
+      }
+      key="Lato"
+      text="Alternatives to Helvetica"
+    />
   </Dumb>
 </Page>
 `;
